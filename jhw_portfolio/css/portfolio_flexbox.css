@@ -1,0 +1,512 @@
+/*grid sys: the setting below is set up for mobile deviees other expansions would be adjusted
+thru media queries at the end*/
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*home*/
+.short-intro-container{
+	-webkit-justify-display:flex;
+	display: -ms-flex;
+	display: flex;
+
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	-webkit-justify-content: space-around;
+	-ms-justify-content: space-around;
+	justify-content: space-around;
+
+	margin:0.5rem 0;
+
+}
+
+.short-intro-item{
+	flex-basis:100%;
+}
+
+.landing-container{
+	-webkit-justify-display:flex;
+	display: -ms-flex;
+	display: flex;
+
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	flex-direction: row;
+
+	-webkit-justify-content: space-around;
+	-ms-justify-content: space-around;
+	justify-content: space-around;
+}
+
+.landing-item{
+	flex-basis:100%;
+}
+
+
+/*portfolio nav*/
+.nav-container{
+	-webkit-justify-display:flex;
+	display: -ms-flex;
+	display: flex;
+
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	-webkit-justify-content: flex-start;
+	-ms-justify-content: flex-start;
+	justify-content: flex-start;
+
+	margin:0.8rem 0;
+	flex-direction:column;
+	align-items:center;
+
+}
+
+
+/*project display*/
+.project-container{
+	position:relative;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+}
+
+.project-item{
+	flex-basis:80%;
+}
+
+/*recent project*/
+.recent-project-container{
+	position:relative;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+}
+
+.recent-project-item{
+	flex-basis:95%;
+}
+
+/*about*/
+.about-container{
+	-webkit-justify-display:flex;
+	-ms-display: flex;
+	display: flex;
+
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	-webkit-justify-content: space-around;
+	-ms-justify-content: space-around;
+	justify-content: space-around;
+
+	margin: 0 1.5rem;
+}
+
+.about-item{
+	display:inline-block;
+	flex-basis:100%;
+}
+
+/*vid*/
+/* This is the div the video is placed inside */
+.video-container{
+	margin:0 0;
+	width:600px;
+}
+
+/* This code adjusts the size of the video, without distorting the aspect ratio */
+.videowrapper {
+	float: none;
+	clear: both;
+	width: 100%;
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+.videowrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Adjust the size for mobile devices */
+@media only screen and (max-width: 599px) {
+	.video-container{
+		width:100%;
+	}
+}
+
+/*overview with vid*/
+.overview-video{
+	-webkit-justify-display:flex;
+	display: -ms-flex;
+	display: flex;
+
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	-webkit-justify-content: flex-start;
+	-ms-justify-content: flex-start;
+	justify-content: flex-start;
+
+	width:90%;
+	margin:0 auto;
+	margin-top:2rem;
+}
+
+.overview-vid-item{
+	flex-basis:100%;
+}
+
+/*overview with normal image*/
+
+.overview-image-container{
+
+	-webkit-justify-display:flex;
+	-ms-display: flex;
+	display: flex;
+
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	-webkit-justify-content: space-around;
+	-ms-justify-content: space-around;
+	justify-content: space-around;
+
+	width:80%;
+	margin:0 auto;
+	margin-top:2rem;
+
+}
+.overview-item{
+	flex-basis:100%;
+}
+
+/*project image*/
+@media(min-width:37.5em) and (max-width:56.25em){
+	figure{
+		margin-top: 1rem;
+		margin-left: 10%;
+	}
+
+	.project-image{
+		max-width:80%;
+	}
+
+	figCaption{
+		max-width:70%;
+	}
+
+}
+
+@media(min-width:56.25em){
+
+	figure{
+		margin-top: 2rem;
+		margin-left: 30%;
+		max-width:58%;
+	}
+
+	.project-image{
+		max-width:80%;
+	}
+
+	figCaption{
+		max-width:80%;
+	}
+
+	.project-paragraph, .paragraph-in-text{
+		max-width:60%;
+	}
+}
+
+
+
+/*porject display*/
+@media(min-width:31.125em) and (max-width:56.25em){
+	.project-item{
+		flex-basis:35%;
+	}
+
+	.project-hover-text{
+		font-size: 1rem;
+	}
+
+	.recent-project-item{
+		flex-basis:30%;
+	}
+
+	#recent-project-footer{
+		padding-top:1.5rem;
+		width:100%;
+		bottom:0;
+		/* background-color:#EAE9E9; */
+	}
+
+}
+
+@media(min-width:56.25em){
+	.project-item{
+		flex-basis:20%;
+	}
+
+	.project-hover-text{
+		font-size: 1rem;
+	}
+
+	.recent-project-item{
+		flex-basis:20%;
+	}
+
+	#recent-project-footer{
+		padding-top:1.5rem;
+		width:100%;
+		bottom:0;
+		/* background-color:#EAE9E9; */
+	}
+}
+
+/*imageoverview*/
+
+@media(min-width:64.375em){
+	.overview-item{
+		flex-basis:50%;
+	}
+
+	.overview-description{
+		margin-bottom:0;
+	}
+
+	.overview-image-item{
+		padding:0 2rem;
+
+	}
+}
+
+@media(min-width:50em){
+	.overview-vid-item{
+		flex-basis:50%;
+	}
+}
+
+@media(min-width:56.25em){
+
+	.about-item{
+		flex-basis:50%;
+	}
+
+	.about-text{
+		padding-left:4rem;
+	}
+
+	#photo_one{
+		display:none;
+	}
+
+	#photo_two{
+		display:flex;
+		margin:auto;
+	}
+
+
+}
+
+/*home*/
+@media(min-width:37.5em){
+	.short-intro-item{
+		flex-basis:45%;
+	}
+}
+
+/*h2 in project*/
+@media(min-width:31.25em) and (max-width:50em){
+
+	.project-section-title{
+		margin-left:3rem;
+	}
+}
+
+/*Nav*/
+/*port nav*/
+@media(min-width:31.875em){
+
+	.nav-logo{
+		margin-right:auto;
+		margin-left:2.3rem;
+	}
+
+	.nav-logo-item{
+		margin-left:3.5rem;
+	}
+
+	.nav-container{
+		-webkit-justify-display:flex;
+		display: -ms-flex;
+		display: flex;
+
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+
+		-webkit-justify-content: flex-start;
+		-ms-justify-content: flex-start;
+		justify-content: flex-start;
+
+		flex-direction:row;
+		margin:0.8rem 0;
+
+	}
+
+	#big-intro{
+		margin-left:3.8rem;
+	}
+
+
+.landing-item{
+	flex-basis:50%;
+}
+
+
+	.short-intro-container{
+		-webkit-justify-display:flex;
+		display: -ms-flex;
+		display: flex;
+
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+
+		-webkit-justify-content: space-around;
+		-ms-justify-content: space-around;
+		justify-content: space-around;
+
+		margin: 3rem 0;
+
+
+	}
+
+}
+
+/*homepage img*/
+@media(min-width:59.375em){
+
+	/*homapage image*/
+	#big-decoration{
+		display:block;
+		max-width:100%;
+		width:100%;
+		margin:0.6rem auto;
+		padding-left:5rem;
+		padding-right:5rem;
+	}
+
+	#small-decoration{
+		display:none;
+	}
+}
+
+/*project overview title*/
+@media(min-width:31.25em) and (max-width:70.625em){
+
+	.project-title{
+		color:#3C3C3C;
+		margin-left:1rem;
+		margin-top: 1rem;
+		margin-bottom:0.8rem;
+		font-size:3.5rem;
+		font-family: 'Amiri', serif;
+	}
+
+	.project-title-vid{
+		color:#3C3C3C;
+		margin-left:1rem;
+		margin-top: 1.5rem;
+		margin-bottom:0.8rem;
+		font-size:3.5rem;
+		font-family: 'Amiri', serif;
+	}
+}
+
+@media(min-width:70.625em){
+
+	.project-title{
+		color:#3C3C3C;
+		margin-left:1rem;
+		margin-top: 4rem;
+		margin-bottom:0.8rem;
+		font-size:3.5rem;
+		font-family: 'Amiri', serif;
+	}
+
+	.project-title-vid{
+		color:#3C3C3C;
+		margin-left:1rem;
+		margin-top: 5rem;
+		margin-bottom:0.8rem;
+		font-size:3.5rem;
+		font-family: 'Amiri', serif;
+	}
+
+	.overview-vid-item{
+		padding-left:3.5rem;
+	}
+}
+
+
+
+@media(min-width:50em) and (max-width:60.25em){
+
+	.project-section-title{
+		margin-left:5rem;
+	}
+}
+
+@media(min-width:60.25em){
+	.project-section-title{
+		margin-left:9rem;
+	}
+}
+
+/*project image*/
+@media(min-width:31.25em){
+
+	.big-project-img{
+	  display:block;
+	}
+
+	.small-project-img{
+		display:none;
+	}
+
+}
