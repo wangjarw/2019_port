@@ -572,6 +572,15 @@ nav li {
   border-color: #65B2C6;
 }
 
+.project-group{
+
+  border-bottom-style: solid;
+  border-bottom-width:1.2px;
+  border-bottom-color:#DBDBDB;
+  padding-bottom:5rem;
+
+}
+
 .project-overlay{
   position: absolute;
   top: 0;
