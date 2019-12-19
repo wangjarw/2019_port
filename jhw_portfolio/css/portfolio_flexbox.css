@@ -254,9 +254,9 @@ thru media queries at the end*/
 
 
 /*porject display*/
-@media(min-width:31.125em) and (max-width:56.25em){
+@media(min-width:31.25em) and (max-width:50.62em){
 	.project-item{
-		flex-basis:35%;
+		flex-basis:40%;
 	}
 
 	.project-hover-text{
@@ -276,7 +276,7 @@ thru media queries at the end*/
 
 }
 
-@media(min-width:56.25em){
+@media(min-width:50.62em){
 	.project-item{
 		flex-basis:20%;
 	}
