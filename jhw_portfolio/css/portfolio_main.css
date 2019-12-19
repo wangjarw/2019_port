@@ -19,7 +19,7 @@ footer{
 h1{
   font-family: 'Open Sans', sans-serif;
   font-size:1.4rem;
-  margin-top:0;
+  /* margin-top:0; */
   color:#3C3C3C;
 }
 
@@ -66,10 +66,10 @@ h2 {
 }
 
 .preview-section-container{
-  	border-bottom-style: solid;
-    border-bottom-width:1.2px;
-    border-bottom-color:#DBDBDB;
-    padding-bottom:5rem;
+  border-bottom-style: solid;
+  border-bottom-width:1.2px;
+  border-bottom-color:#DBDBDB;
+  padding-bottom:5rem;
 }
 
 
@@ -115,7 +115,7 @@ img{
 
 .intro-img{
   align-self: center;
- width:100%;
+  width:100%;
 }
 
 #big-decoration{
@@ -309,8 +309,8 @@ nav {
 }
 
 #homeNav{
-    border-bottom-style:none;
-    margin-bottom: 0;
+  border-bottom-style:none;
+  margin-bottom: 0;
 }
 
 #big-intro{
@@ -577,8 +577,24 @@ nav li {
   border-bottom-style: solid;
   border-bottom-width:1.2px;
   border-bottom-color:#DBDBDB;
-  padding:3rem;
+  padding-bottom:4rem;
 
+}
+
+.project-group-title{
+
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+
+.visual-design{
+  padding:0;
+  padding-bottom:2.5rem;
+}
+
+.project-category-title{
+  margin-bottom:0;
 }
 
 .project-overlay{
