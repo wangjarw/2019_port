@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+/* @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css); */
+@import url(https://fonts.googleapis.com/css?family=Heebo&display=swap);
 
 body {
   /* #EAE9E9*/
@@ -17,7 +18,7 @@ footer{
 }
 
 h1{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-size:1.4rem;
   /* margin-top:0; */
   color:#3C3C3C;
@@ -86,7 +87,7 @@ h2 {
   margin-top: 1.5rem;
   margin-bottom:0.8rem;
   font-size:2rem;
-  font-family: 'Amiri', serif;
+  font-family: 'Heebo', sans-serif;
 }
 
 .project-section-title{
