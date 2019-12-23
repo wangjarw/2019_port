@@ -393,9 +393,9 @@ thru media queries at the end*/
 	}
 
 
-.landing-item{
-	flex-basis:50%;
-}
+	.landing-item{
+		flex-basis:50%;
+	}
 
 
 	.short-intro-container{
@@ -445,7 +445,7 @@ thru media queries at the end*/
 		margin-top: 1rem;
 		margin-bottom:0.8rem;
 		font-size:3.5rem;
-		font-family: 'Amiri', serif;
+		font-family: 'Heebo', sans-serif;
 	}
 
 	.project-title-vid{
@@ -502,7 +502,7 @@ thru media queries at the end*/
 @media(min-width:31.25em){
 
 	.big-project-img{
-	  display:block;
+		display:block;
 	}
 
 	.small-project-img{
