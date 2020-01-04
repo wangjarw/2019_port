@@ -393,9 +393,9 @@ thru media queries at the end*/
 	}
 
 
-.landing-item{
-	flex-basis:50%;
-}
+	.landing-item{
+		flex-basis:50%;
+	}
 
 
 	.short-intro-container{
@@ -437,7 +437,7 @@ thru media queries at the end*/
 }
 
 /*project overview title*/
-@media(min-width:31.25em) and (max-width:70.625em){
+@media(min-width:31.25em) and (max-width:73.75em){
 
 	.project-title{
 		color:#3C3C3C;
@@ -445,7 +445,7 @@ thru media queries at the end*/
 		margin-top: 1rem;
 		margin-bottom:0.8rem;
 		font-size:3.5rem;
-		font-family: 'Amiri', serif;
+		font-family: 'Heebo', sans-serif;
 	}
 
 	.project-title-vid{
@@ -458,15 +458,15 @@ thru media queries at the end*/
 	}
 }
 
-@media(min-width:70.625em){
+@media(min-width:73.75em){
 
 	.project-title{
 		color:#3C3C3C;
 		margin-left:1rem;
 		margin-top: 4rem;
 		margin-bottom:0.8rem;
-		font-size:3.5rem;
-		font-family: 'Amiri', serif;
+		font-size:2.8rem;
+		font-family: 'Heebo', sans-serif;
 	}
 
 	.project-title-vid{
@@ -502,7 +502,7 @@ thru media queries at the end*/
 @media(min-width:31.25em){
 
 	.big-project-img{
-	  display:block;
+		display:block;
 	}
 
 	.small-project-img{
