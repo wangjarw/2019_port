@@ -437,7 +437,7 @@ thru media queries at the end*/
 }
 
 /*project overview title*/
-@media(min-width:31.25em) and (max-width:70.625em){
+@media(min-width:31.25em) and (max-width:73.75em){
 
 	.project-title{
 		color:#3C3C3C;
@@ -458,14 +458,14 @@ thru media queries at the end*/
 	}
 }
 
-@media(min-width:70.625em){
+@media(min-width:73.75em){
 
 	.project-title{
 		color:#3C3C3C;
 		margin-left:1rem;
 		margin-top: 4rem;
 		margin-bottom:0.8rem;
-		font-size:3.5rem;
+		font-size:2.8rem;
 		font-family: 'Heebo', sans-serif;
 	}
 
