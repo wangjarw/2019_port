@@ -52,6 +52,7 @@ thru media queries at the end*/
 
 /*portfolio nav*/
 .nav-container{
+	background-color:#475EBF;
 	-webkit-justify-display:flex;
 	display: -ms-flex;
 	display: flex;
@@ -65,6 +66,8 @@ thru media queries at the end*/
 	justify-content: flex-start;
 
 	margin:0.8rem 0;
+	margin-top:0;
+	margin-bottom:0.3rem;
 	flex-direction:column;
 	align-items:center;
 
@@ -384,7 +387,9 @@ thru media queries at the end*/
 		justify-content: flex-start;
 
 		flex-direction:row;
-		margin:0.8rem 0;
+		margin:0.3rem 0;
+		margin-top:0;
+		margin-bottom:0.1rem;
 
 	}
 
@@ -426,7 +431,7 @@ thru media queries at the end*/
 		display:block;
 		max-width:100%;
 		width:100%;
-		margin:0.6rem auto;
+		margin:0 auto;
 		/* padding-left:5rem;
 		padding-right:5rem; */
 	}

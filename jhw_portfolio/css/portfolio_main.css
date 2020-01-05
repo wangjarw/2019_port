@@ -325,7 +325,7 @@ nav a:hover, nav a:focus {
 /* Styling for the navigation button */
 .main-nav-accent-one{
   display: inline-block;
-  font-family:'Roboto', sans-serif;
+  font-family:'Heebo', sans-serif;
   text-decoration: none;
   color:#3C3C3C;
   font-weight:bold;
@@ -338,7 +338,7 @@ nav a:hover, nav a:focus {
 
 .main-nav-accent-two {
   display: inline-block;
-  font-family:'Roboto', sans-serif;
+  font-family:'Heebo', sans-serif;
   text-decoration: none;
   color:#3C3C3C;
   font-weight:bold;
@@ -444,18 +444,18 @@ nav ul{
   display:inline-block;
   margin:0.5rem 0;
   margin-left:0rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Heebo', sans-serif;
   color:#3C3C3C;
   font-size: 1.5rem;
   text-align:center;
-  font-weight:bold;
+  font-weight:bolder;
 
   -webkit-transition: color 0.3s ease-in-out 0s;
   transition: color 0.3s ease-in-out 0s;
 }
 
 .nav-logo-item:hover, .nav-logo-item:focus{
-  color:#339D8B;
+  color:#DBB345;
 }
 
 .on-page-one{
@@ -466,7 +466,7 @@ nav ul{
 }
 
 .on-page-home{
-  color:#339D8B;
+  color:#E3E5E8;
 }
 
 nav {
