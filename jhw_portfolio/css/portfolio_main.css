@@ -558,10 +558,10 @@ nav li {
   height: 100%;
 }
 .border-highlight-one:before, .border-highlight-one:after {
-  border-color: #D69D53;
+  border-color: #475EBF;
 }
 
-.border-highlight-two:before, .border-highlight-two:after {
+/* .border-highlight-two:before, .border-highlight-two:after {
   border-color: #339D8B;
 }
 
@@ -571,7 +571,7 @@ nav li {
 
 .border-highlight-four:before, .border-highlight-four:after {
   border-color: #65B2C6;
-}
+} */
 
 .project-group{
 
