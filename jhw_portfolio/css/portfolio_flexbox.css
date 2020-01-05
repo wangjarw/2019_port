@@ -445,7 +445,7 @@ thru media queries at the end*/
 @media(min-width:31.25em) and (max-width:73.75em){
 
 	.project-title{
-		color:#3C3C3C;
+		color:#475EBF;
 		margin-left:1rem;
 		margin-top: 1rem;
 		margin-bottom:0.8rem;
@@ -454,7 +454,7 @@ thru media queries at the end*/
 	}
 
 	.project-title-vid{
-		color:#3C3C3C;
+		color:#475EBF;
 		margin-left:1rem;
 		margin-top: 1.5rem;
 		margin-bottom:0.8rem;
@@ -466,7 +466,7 @@ thru media queries at the end*/
 @media(min-width:73.75em){
 
 	.project-title{
-		color:#3C3C3C;
+		color:#475EBF;
 		margin-left:1rem;
 		margin-top: 4rem;
 		margin-bottom:0.8rem;
@@ -475,7 +475,7 @@ thru media queries at the end*/
 	}
 
 	.project-title-vid{
-		color:#3C3C3C;
+		color:#475EBF;
 		margin-left:1rem;
 		margin-top: 5rem;
 		margin-bottom:0.8rem;

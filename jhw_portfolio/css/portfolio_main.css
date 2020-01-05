@@ -21,7 +21,7 @@ h1{
   font-family: 'Heebo', sans-serif;
   font-size:1.4rem;
   /* margin-top:0; */
-  color:#3C3C3C;
+  color:#475EBF;
 }
 
 .chinese-name{
@@ -47,8 +47,8 @@ h1{
 h2 {
   margin-top: 0;
   margin-bottom: 0.5em;
-  color:#3C3C3C;
-  font-family: 'Roboto', sans-serif;
+  color:#475EBF;
+  font-family: 'Heebo', sans-serif;
   font-size:1.2rem;
   font-weight:bolder;
 }
@@ -58,7 +58,7 @@ h2 {
 }
 
 .project-title-vid{
-  color:#3C3C3C;
+  color:#475EBF;
   margin-left:1rem;
   margin-top: 1.5rem;
   margin-bottom:0.8rem;
@@ -82,7 +82,7 @@ h2 {
 }
 
 .project-title{
-  color:#3C3C3C;
+  color:#475EBF;
   margin-left:1rem;
   margin-top: 1.5rem;
   margin-bottom:0.8rem;
@@ -91,7 +91,7 @@ h2 {
 }
 
 .project-section-title{
-  color:#3C3C3C;
+  color:#475EBF;
   margin: 2.3rem 0;
   margin-left:1.5rem;
 }
@@ -104,7 +104,7 @@ h3{
   margin-bottom: 0;
   font-family: 'Heebo', sans-serif;
   font-weight:bold;
-  color:#3C3C3C;
+  color:#475EBF;
   padding-bottom:1rem;
 }
 
@@ -252,10 +252,10 @@ figure{
 
 /*vid and overview*/
 .overview-accent-color-one{
-  color:#D69D53;
+  color:#3C3C3C;
 }
 
-.overview-accent-color-two{
+/* .overview-accent-color-two{
   color:#339D8B;
 }
 
@@ -265,7 +265,7 @@ figure{
 
 .overview-accent-color-four{
   color:#65B2C6;
-}
+} */
 
 .overview-section{
   padding-top:1rem;
@@ -280,7 +280,7 @@ figure{
 /*for footer nav link*/
 a{
   text-decoration: none;
-  color:#65B2C6;
+  color:#475EBF;
   -webkit-transition: color 0.3s ease-in;
   transition: color 0.3s ease-in;
 }
