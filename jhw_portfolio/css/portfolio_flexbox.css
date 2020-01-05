@@ -427,8 +427,8 @@ thru media queries at the end*/
 		max-width:100%;
 		width:100%;
 		margin:0.6rem auto;
-		padding-left:5rem;
-		padding-right:5rem;
+		/* padding-left:5rem;
+		padding-right:5rem; */
 	}
 
 	#small-decoration{
