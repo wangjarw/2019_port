@@ -445,7 +445,7 @@ nav ul{
   margin:0.5rem 0;
   margin-left:0rem;
   font-family: 'Heebo', sans-serif;
-  color:#3C3C3C;
+  color:#EFBB3A;
   font-size: 1.5rem;
   text-align:center;
   font-weight:bolder;
@@ -455,7 +455,7 @@ nav ul{
 }
 
 .nav-logo-item:hover, .nav-logo-item:focus{
-  color:#DBB345;
+  color:#E3E5E8;
 }
 
 .on-page-one{
@@ -466,7 +466,7 @@ nav ul{
 }
 
 .on-page-home{
-  color:#E3E5E8;
+  color:#EFBB3A;
 }
 
 nav {
