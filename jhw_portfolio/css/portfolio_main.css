@@ -304,8 +304,8 @@ nav {
   margin-bottom: 3rem;
   font-family:'Roboto', sans-serif;
   background-color:white;
-  border-bottom-style:dotted;
-  border-color:#DBDBDB;
+  /* border-bottom-style:dotted;
+  border-color:#DBDBDB; */
 
 }
 
@@ -459,10 +459,10 @@ nav ul{
 }
 
 .on-page-one{
-  color:#B35F5E;
+  color:#2AD0DD;
 }
 .on-page-two{
-  color:#D69D53;
+  color:#DD7AB5;
 }
 
 .on-page-home{
