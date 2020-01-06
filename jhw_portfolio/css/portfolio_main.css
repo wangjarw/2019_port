@@ -327,7 +327,7 @@ nav a:hover, nav a:focus {
   display: inline-block;
   font-family:'Heebo', sans-serif;
   text-decoration: none;
-  color:#3C3C3C;
+  color:#E3E5E8;
   font-weight:bold;
   position: relative;
   width: 5rem;
@@ -340,7 +340,7 @@ nav a:hover, nav a:focus {
   display: inline-block;
   font-family:'Heebo', sans-serif;
   text-decoration: none;
-  color:#3C3C3C;
+  color:#E3E5E8;
   font-weight:bold;
   position: relative;
   width: 5rem;
@@ -361,7 +361,7 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
   height: 2px;
   bottom: -0.5rem;
   left: 0;
-  background-color: #B35F5E;
+  background-color: #2AD0DD;
   visibility: hidden;
   /*initially it does not occupy any space*/
   -webkit-transform: scaleX(0);
@@ -378,7 +378,7 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
 }
 
 .main-nav-accent-one:hover, .main-nav-accent-one:focus{
-  color:#B35F5E;
+  color:#2AD0DD;
 }
 
 .main-nav-accent-two:before{
@@ -388,7 +388,7 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
   height: 2px;
   bottom: -0.5rem;
   left: 0;
-  background-color: #D69D53;
+  background-color: #DD7AB5;
   visibility: hidden;
   /*initially it does not occupy any space*/
   -webkit-transform: scaleX(0);
@@ -405,7 +405,7 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
 }
 
 .main-nav-accent-two:hover, .main-nav-accent-two:focus {
-  color:#D69D53;
+  color:#DD7AB5;
 }
 
 .nav-container ul{
@@ -424,7 +424,7 @@ nav ul{
   height: 2px;
   bottom: -0.5rem;
   left: 0;
-  background-color: #B35F5E;
+  background-color: #2AD0DD;
   visibility: hidden;
   /*initially it does not occupy any space*/
   -webkit-transform: scaleX(0);
