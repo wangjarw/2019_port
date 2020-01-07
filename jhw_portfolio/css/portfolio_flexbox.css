@@ -262,8 +262,8 @@ thru media queries at the end*/
 		flex-basis:40%;
 	}
 
-	.project-hover-text{
-		font-size: 1rem;
+	.display-hover-txt{
+	font-size:.9rem;
 	}
 
 	.recent-project-item{
@@ -284,8 +284,8 @@ thru media queries at the end*/
 		flex-basis:21%;
 	}
 
-	.project-hover-text{
-		font-size: 1rem;
+	.display-hover-txt{
+	font-size:1rem;
 	}
 
 	.recent-project-item{
