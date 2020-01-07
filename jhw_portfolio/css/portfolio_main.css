@@ -144,6 +144,12 @@ p{
   color:rgba(0,0,0,.84);
 }
 
+.display-hover-txt{
+color:#334682;
+max-width:90%;
+font-size:1rem;
+}
+
 .project-paragraph{
   font-family: 'Heebo', sans-serif;
   font-size:1.1rem;
@@ -610,9 +616,9 @@ nav li {
   background-color: #fff;
 }
 
-.project-description{
+/* .project-description{
   line-height:1.3rem;
-}
+} */
 
 
 .project-hover-text{
@@ -639,11 +645,11 @@ nav li {
   opacity: .999;
 }
 
-.project-item-img{
+/* .project-item-img{
   max-width:100%;
   padding:0.5rem;
   vertical-align:center;
-}
+} */
 
 .project-item-title, .project-item-description{
   display: block;
