@@ -94,6 +94,14 @@ thru media queries at the end*/
 	flex-basis:80%;
 }
 
+.btn{
+  position:absolute;
+  display:inline-block;
+  top:58%;
+  left:45%;
+
+}
+
 /*recent project*/
 .recent-project-container{
 	position:relative;
@@ -277,11 +285,24 @@ thru media queries at the end*/
 		/* background-color:#EAE9E9; */
 	}
 
+	.btn{
+	  position:absolute;
+	  display:inline-block;
+	  top:20%;
+	  left:40%;
+		font-size:1em;
+		padding-left:.8em;
+		padding-right:.8em;
+		padding-top:0.3em;
+		padding-bottom:0.3em;
+
+	}
+
 }
 
 @media(min-width:50.62em){
 	.project-item{
-		flex-basis:21%;
+		flex-basis:18%;
 	}
 
 	.display-hover-txt{
@@ -297,6 +318,19 @@ thru media queries at the end*/
 		width:100%;
 		bottom:0;
 		/* background-color:#EAE9E9; */
+	}
+
+	.btn{
+	  position:absolute;
+	  display:inline-block;
+	  top:30%;
+	  left:44%;
+		font-size:1.3em;
+		padding-left:.8em;
+		padding-right:.8em;
+		padding-top:0.3em;
+		padding-bottom:0.3em;
+
 	}
 }
 

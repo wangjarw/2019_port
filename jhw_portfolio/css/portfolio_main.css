@@ -132,6 +132,43 @@ img{
 }
 
 
+.nvrbnr{
+  max-width:100%;
+}
+
+.navbnr-img{
+  max-width: 100%;
+  height: auto;
+}
+
+.navbnr-sub{
+  display:inline-block;
+  position: relative;
+}
+
+.btn{
+  position:absolute;
+  display:inline-block;
+  top:58%;
+  left:38%;
+  font-family: 'Heebo', sans-serif;
+  font-size:1.3rem;
+  font-weight: bold;
+  color:white;
+  background-color:#DD6478;
+
+  -webkit-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in;
+}
+
+.btn:hover{
+  text-decoration: none;
+  color:#F4C33B;
+}
+
+}
+
+
 .home-img{
   max-width:100%;
   margin-top:1rem;
@@ -146,9 +183,9 @@ p{
 }
 
 .display-hover-txt{
-color:#334682;
-max-width:90%;
-font-size:1rem;
+  color:#475EBF;
+  max-width:90%;
+  font-size:1rem;
 }
 
 .project-paragraph{
@@ -263,15 +300,15 @@ figure{
 }
 
 /* .overview-accent-color-two{
-  color:#339D8B;
+color:#339D8B;
 }
 
 .overview-accent-color-three{
-  color:#B35F5E;
+color:#B35F5E;
 }
 
 .overview-accent-color-four{
-  color:#65B2C6;
+color:#65B2C6;
 } */
 
 .overview-section{
@@ -308,13 +345,14 @@ a:hover {
 }
 
 nav {
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
   font-family:'Roboto', sans-serif;
   background-color:white;
   /* border-bottom-style:dotted;
   border-color:#DBDBDB; */
 
 }
+
 
 #homeNav{
   border-bottom-style:none;
@@ -569,15 +607,15 @@ nav li {
 }
 
 /* .border-highlight-two:before, .border-highlight-two:after {
-  border-color: #339D8B;
+border-color: #339D8B;
 }
 
 .border-highlight-three:before, .border-highlight-three:after {
-  border-color: #B35F5E;
+border-color: #B35F5E;
 }
 
 .border-highlight-four:before, .border-highlight-four:after {
-  border-color: #65B2C6;
+border-color: #65B2C6;
 } */
 
 .project-group{
@@ -617,10 +655,6 @@ nav li {
   background-color: #fff;
 }
 
-/* .project-description{
-  line-height:1.3rem;
-} */
-
 
 .project-hover-text{
   color: #3C3C3C;
@@ -647,9 +681,9 @@ nav li {
 }
 
 /* .project-item-img{
-  max-width:100%;
-  padding:0.5rem;
-  vertical-align:center;
+max-width:100%;
+padding:0.5rem;
+vertical-align:center;
 } */
 
 .project-item-title, .project-item-description{
