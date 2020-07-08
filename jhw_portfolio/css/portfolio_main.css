@@ -132,6 +132,27 @@ img{
 }
 
 
+.nvrbnr{
+  max-width:100%;
+}
+
+.navbnr-img{
+max-width: 100%;
+height: auto;
+}
+
+.navbnr-sub{
+  display:inline-block;
+  position: relative;
+}
+
+.btn{
+  position:absolute;
+    bottom:5px;
+    right:5px;
+}
+
+
 .home-img{
   max-width:100%;
   margin-top:1rem;
@@ -308,13 +329,14 @@ a:hover {
 }
 
 nav {
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
   font-family:'Roboto', sans-serif;
   background-color:white;
   /* border-bottom-style:dotted;
   border-color:#DBDBDB; */
 
 }
+
 
 #homeNav{
   border-bottom-style:none;
