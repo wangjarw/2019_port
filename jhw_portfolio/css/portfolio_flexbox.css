@@ -289,7 +289,12 @@ thru media queries at the end*/
 	  position:absolute;
 	  display:inline-block;
 	  top:20%;
-	  left:45%;
+	  left:40%;
+		font-size:1em;
+		padding-left:.8em;
+		padding-right:.8em;
+		padding-top:0.3em;
+		padding-bottom:0.3em;
 
 	}
 
@@ -319,9 +324,10 @@ thru media queries at the end*/
 	  position:absolute;
 	  display:inline-block;
 	  top:30%;
-	  left:46%;
-		padding-left:1em;
-		padding-right:1em;
+	  left:44%;
+		font-size:1.3em;
+		padding-left:.8em;
+		padding-right:.8em;
 		padding-top:0.3em;
 		padding-bottom:0.3em;
 
