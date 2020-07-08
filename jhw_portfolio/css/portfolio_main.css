@@ -150,7 +150,21 @@ img{
   position:absolute;
   display:inline-block;
   top:58%;
-  left:48%;
+  left:38%;
+  font-family: 'Heebo', sans-serif;
+  font-size:1.3rem;
+  font-weight: bold;
+  color:white;
+  background-color:#DD6478;
+
+  -webkit-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in;
+}
+
+.btn:hover{
+  text-decoration: none;
+  color:#F4C33B;
+}
 
 }
 
@@ -169,7 +183,7 @@ p{
 }
 
 .display-hover-txt{
-  color:#334682;
+  color:#475EBF;
   max-width:90%;
   font-size:1rem;
 }
@@ -640,10 +654,6 @@ border-color: #65B2C6;
   opacity: .55;
   background-color: #fff;
 }
-
-/* .project-description{
-line-height:1.3rem;
-} */
 
 
 .project-hover-text{

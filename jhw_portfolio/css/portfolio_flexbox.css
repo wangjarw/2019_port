@@ -288,8 +288,8 @@ thru media queries at the end*/
 	.btn{
 	  position:absolute;
 	  display:inline-block;
-	  top:58%;
-	  left:48%;
+	  top:20%;
+	  left:45%;
 
 	}
 
@@ -318,8 +318,12 @@ thru media queries at the end*/
 	.btn{
 	  position:absolute;
 	  display:inline-block;
-	  top:58%;
-	  left:48%;
+	  top:30%;
+	  left:46%;
+		padding-left:1em;
+		padding-right:1em;
+		padding-top:0.3em;
+		padding-bottom:0.3em;
 
 	}
 }
