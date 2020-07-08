@@ -1,6 +1,7 @@
 /* @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css); */
 @import url(https://fonts.googleapis.com/css?family=Heebo&display=swap);
 
+
 body {
   /* #EAE9E9*/
   background-color:white;
@@ -63,7 +64,7 @@ h2 {
   margin-top: 1.5rem;
   margin-bottom:0.8rem;
   font-size:2rem;
-  font-family: 'Amiri', serif;
+  font-family: 'Heebo', sans-serif;
 }
 
 .preview-section-container{
@@ -97,7 +98,7 @@ h2 {
 }
 
 .recent-project-name{
-  text-align:center; 
+  text-align:center;
 }
 
 h3{
