@@ -577,7 +577,7 @@ thru media queries at the end*/
 } */
 
 
-@media(min-width:50em) and (max-width:60.25em){
+@media(min-width:50em) and (max-width:56.25em){
 
 	.project-section-title{
 		margin-left:5rem;
@@ -587,9 +587,9 @@ thru media queries at the end*/
 
 }
 
-@media(min-width:60.25em){
+@media(min-width:56.25em){
 	.project-section-title{
-		margin-left:9rem;
+		margin-left:11rem;
 		/* text-align: center; */
 	}
 
