@@ -83,8 +83,10 @@ h2 {
 
 .project-section-title{
   color:#475EBF;
-  margin: 2.3rem 0;
+  margin-bottom: 2.3rem;
+  margin-top: 4rem;
   margin-left:1.5rem;
+  /* text-align:center; */
 }
 
 .recent-project-name{
@@ -103,6 +105,10 @@ h3{
 
 img{
   max-width:60%;
+}
+
+#big_logo_separation{
+
 }
 
 .intro-img{
