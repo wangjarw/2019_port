@@ -544,8 +544,8 @@ nav li {
 .project-item-img{
   max-width:100%;
   width:100%;
-  padding:0.5rem;
-  vertical-align:center;
+  /* padding:0.2rem; */
+  vertical-align:middle;
 }
 
 .project-item-title, .project-item-description{
@@ -671,11 +671,6 @@ border-color: #65B2C6;
   opacity: .999;
 }
 
-/* .project-item-img{
-max-width:100%;
-padding:0.5rem;
-vertical-align:center;
-} */
 
 .project-item-title, .project-item-description{
   display: block;
@@ -698,8 +693,8 @@ vertical-align:center;
 .recent-project-item-img{
   max-width:100%;
   width:100%;
-  /* padding:0.5rem; */
-  vertical-align:center;
+  vertical-align:middle;
+  /* padding:0.2rem; */
 }
 
 
