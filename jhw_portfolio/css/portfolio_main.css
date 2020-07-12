@@ -186,7 +186,7 @@ p{
 
 .project-paragraph{
   font-family: 'Heebo', sans-serif;
-  font-size:1.1rem;
+  font-size:1.25rem;
   line-height: 1.7rem;
   margin:1rem auto;
 }
@@ -223,12 +223,13 @@ p{
 
 figCaption{
   font-family:'Roboto', sans-serif;
-  font-weight:600;
+  /* font-weight:600; */
   max-width:100%;
   color:#3C3C3C;
   padding-bottom:1rem;
   padding-top:0.7rem;
-  font-size:1rem;
+  font-size:1.2rem;
+  line-height: 1.45em;
 }
 
 figure{
