@@ -317,6 +317,10 @@ color:#65B2C6;
   margin-bottom:0;
 }
 
+#nav-space{
+  margin-top:2.3em;
+}
+
 /*for footer nav link*/
 a{
   text-decoration: none;
