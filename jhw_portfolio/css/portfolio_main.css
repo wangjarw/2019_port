@@ -1,6 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Heebo&display=swap);
 
 
+html{
+  scroll-behavior: smooth; /*jump back to top*/
+}
+
 body {
   /* #EAE9E9*/
   background-color:white;
