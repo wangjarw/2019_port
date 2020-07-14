@@ -1,6 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Heebo&display=swap);
 
 
+html{
+  scroll-behavior: smooth; /*jump back to top*/
+}
+
 body {
   /* #EAE9E9*/
   background-color:white;
@@ -199,7 +203,7 @@ p{
   /* display:block; */
   color:#5D81F4;
   font-family: 'Heebo', sans-serif;
-  font-size:1.1rem;
+  font-size:1.2rem;
   line-height: 1.7rem;
   /* margin:1rem auto; */
 
